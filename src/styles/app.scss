@@ -16,6 +16,7 @@ body {
 }
 ///HEADERITEMS
 .app-header{
+  background: url('images/wood.jpg') no-repeat;
   font-family: Fancy;
   display: flex;
   justify-content: space-between;
@@ -127,9 +128,8 @@ body {
     font-family: Fancy;
     display: flex;
     justify-content: center;
-    color: #996515;
-    text-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
+    color: black;
+    text-shadow:  -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px b#996515;
   }
   }
 }
