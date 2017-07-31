@@ -2,13 +2,14 @@
   "name": "personalsite",
   "homepage": "https://t-dex-tiy.github.io/personalsite/",
   "version": "0.1.0",
-  "private": false ,
+  "private": false,
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.1.2"
   },
   "devDependencies": {
+    "express": "^4.15.3",
     "gh-pages": "^1.0.0",
     "react-scripts": "1.0.10"
   },
@@ -17,6 +18,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy" : "npm run build&&gh-pages -d build"
-  }
+    "deploy": "npm run build&&gh-pages -d build"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T-dex-tiy/personalsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/T-dex-tiy/personalsite/issues"
+  },
+  "description": ""
 }
